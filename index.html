@@ -1,23 +1,1038 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://info.reliabledone.com/qm3-market-price"
+      },
+      "headline": "2026 QM3 가격 분석 및 중고차 연식별 최저가 시세 견적 가이드",
+      "image": "https://via.placeholder.com/1200x630/2C3E50/fff?text=QM3+Price+Guide",
+      "datePublished": "2026-05-12T09:00:00+09:00",
+      "dateModified": "2026-05-12T09:00:00+09:00",
+      "author": {
+        "@type": "Organization",
+        "name": "QM3 시세 및 금융 비교 분석 센터"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "QM3 시세 및 금융 비교 분석 센터",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://via.placeholder.com/600x60/2C3E50/fff?text=QM3+Logo"
+        }
+      },
+      "description": "2026년 기준 QM3 가격 및 중고차 연식별, 트림별 시세를 객관적으로 비교 분석합니다. 일시불 구매, 장기 렌트, 리스 등 금융 상품의 장단점과 스마트 모의 계산기 활용법까지 투명하게 정리해 드립니다.",
+      "articleBody": "르노코리아의 대표 소형 SUV 모델인 QM3 가격 정보를 탐색하는 소비자를 위해 연식별 시세와 대여 요금제 구조를 정밀하게 분석합니다. 주행 거리와 사고 이력, 관리 상태에 따른 가격 변동 폭을 추적하여 합리적인 중고 거래를 지원합니다."
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "QM3 중고차 구매 시 연식별 평균 시세는 대략 얼마 수준인가요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "QM3 중고차 가격은 연식에 따라 큰 차이를 보입니다. 초기형인 2014년형 및 2015년형 매물은 주행거리에 따라 300만 원대에서 500만 원대 사이에 거래되며, 유로6 엔진이 적용된 뉴 QM3 후기형 모델은 700만 원대에서 1000만 원대 이상까지 시세가 형성되어 있습니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "QM3의 악명 높은 게트락 6단 DCT 미션은 중고 구매 시 어떻게 점검해야 하나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "게트락 건식 6단 DCT는 뛰어난 연료 효율을 보장하지만, 가다 서다를 반복하는 도심 주행 시 클러치 마모가 가속화될 수 있습니다. 시승 시 출발 단계에서 차체가 심하게 떨리거나 변속 시 쇠가 긁히는 소음이 난다면 수리 비용 손실이 발생할 수 있으므로 구매 전 제휴 정비망을 통한 진단이 필수적입니다."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "중고 QM3를 렌트나 리스 요금제로 이용할 때 신용 점수에 영향이 가나요?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "렌터카 요금제 방식은 대여 업체의 명의 자산으로 등록되므로 개인의 기대출이나 신용 평점에 아무런 영향이 없습니다. 반면 일반 오토리스의 경우 제2금융권 부채로 잡힐 수 있으므로 금융 자산 운용 계획에 맞추어 유리한 제도를 선택하셔야 합니다."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #2F3E46; 
+            --secondary-color: #E07A5F; 
+            --accent-color: #81B29A; 
+            --bg-light: #FAF9F5; 
+            --bg-subtle: #F4F1DE; 
+            --text-main: #3D405B; 
+            --text-muted: #6C757D; 
+            --border-color: #DFDCD4; 
+            --accent-light: #F2CC8F; 
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        
+        body { 
+            font-family: 'Noto Sans KR', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: var(--bg-light); 
+            color: var(--text-main); 
+            line-height: 2.0; 
+            font-size: 16px; 
+        }
+        
+        .container { 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            padding: 0 24px; 
+        }
+        
+        header { 
+            background-color: #ffffff; 
+            padding: 24px 0; 
+            border-bottom: 1px solid var(--border-color); 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+        
+        header h1 { 
+            margin: 0; 
+            font-size: 1.6em; 
+            color: var(--primary-color); 
+            font-weight: 700; 
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+        
+        header h1 a { 
+            text-decoration: none; 
+            color: inherit; 
+        }
+
+        .hero { 
+            background: linear-gradient(135deg, #2F3E46 0%, #3D405B 100%);
+            color: #ffffff; 
+            padding: 70px 24px; 
+            text-align: center;
+        }
+        
+        .hero h2 { 
+            font-size: 2.3em; 
+            margin-bottom: 18px; 
+            font-weight: 700; 
+            line-height: 1.4;
+            letter-spacing: -1px;
+        }
+        
+        .hero p { 
+            font-size: 1.15em; 
+            margin-bottom: 45px; 
+            font-weight: 300; 
+            color: #F4F1DE;
+        }
+        
+        .calculator-container { 
+            background-color: #ffffff; 
+            padding: 40px; 
+            border-radius: 20px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08); 
+            max-width: 720px; 
+            margin: 0 auto; 
+            text-align: left;
+            border-top: 8px solid var(--secondary-color);
+        }
+        
+        .calculator-container h3 { 
+            color: var(--primary-color); 
+            text-align: center; 
+            margin-top: 0;
+            margin-bottom: 30px; 
+            font-size: 1.55em; 
+            font-weight: 700; 
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+        }
+
+        .form-group { 
+            margin-bottom: 20px; 
+        }
+        
+        .form-group label { 
+            display: block; 
+            margin-bottom: 8px; 
+            font-weight: 500; 
+            color: var(--primary-color); 
+            font-size: 0.95em;
+        }
+        
+        .form-group select, 
+        .form-group input { 
+            width: 100%; 
+            padding: 13px; 
+            border: 1px solid var(--border-color); 
+            border-radius: 10px; 
+            box-sizing: border-box; 
+            font-size: 0.95em; 
+            background-color: #FAF9F5;
+            color: var(--text-main);
+            transition: all 0.3s ease;
+        }
+
+        .form-group select:focus, 
+        .form-group input:focus {
+            border-color: var(--secondary-color);
+            outline: none;
+            background-color: #ffffff;
+            box-shadow: 0 0 0 4px rgba(224, 122, 95, 0.1);
+        }
+        
+        .calc-btn { 
+            background-color: var(--secondary-color); 
+            color: #ffffff; 
+            padding: 16px 32px; 
+            font-size: 1.15em; 
+            font-weight: 700; 
+            border: none; 
+            border-radius: 10px; 
+            cursor: pointer; 
+            transition: all 0.2s ease; 
+            box-shadow: 0 5px 15px rgba(224, 122, 95, 0.25); 
+            text-decoration: none; 
+            display: block; 
+            width: 100%; 
+            box-sizing: border-box;
+            text-align: center;
+            margin-top: 25px;
+        }
+        
+        .calc-btn:hover { 
+            background-color: #D06B50; 
+            transform: translateY(-2px); 
+        }
+
+        .calc-btn:active {
+            transform: translateY(1px);
+        }
+
+        .result-box {
+            margin-top: 30px;
+            padding: 25px;
+            background-color: #FFFDF9;
+            border: 1px solid var(--accent-light);
+            border-left: 6px solid var(--secondary-color);
+            border-radius: 12px;
+            display: none;
+        }
+
+        .result-box h4 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--secondary-color);
+            font-size: 1.25em;
+        }
+
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .result-price {
+            font-size: 1.50em;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-align: right;
+            margin-top: 15px;
+            padding-top: 5px;
+        }
+
+        .content-section { 
+            background-color: #ffffff; 
+            padding: 60px 0; 
+            margin-top: 40px; 
+            border-radius: 16px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.015); 
+        }
+
+        .content-section-gray {
+            background-color: var(--bg-subtle);
+            padding: 60px 0;
+            margin-top: 40px;
+            border-radius: 16px;
+        }
+        
+        .content-section h2 { 
+            font-size: 1.85em; 
+            color: var(--primary-color); 
+            border-left: 6px solid var(--secondary-color); 
+            padding-left: 18px; 
+            margin-bottom: 35px; 
+            font-weight: 700; 
+            line-height: 1.3;
+        }
+        
+        .content-section h3 { 
+            font-size: 1.4em; 
+            color: var(--primary-color); 
+            margin-top: 40px; 
+            margin-bottom: 18px; 
+            font-weight: 700; 
+        }
+        
+        .content-section h4 { 
+            font-size: 1.15em; 
+            color: var(--primary-color); 
+            margin-top: 30px; 
+            margin-bottom: 12px; 
+            font-weight: 700; 
+            background-color: var(--bg-light);
+            padding: 12px 18px;
+            border-radius: 8px;
+        }
+
+        p {
+            margin-bottom: 24px;
+            color: var(--text-main);
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-bottom: 30px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: var(--text-main);
+        }
+        
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 30px 0; 
+            font-size: 0.95em; 
+            background-color: #ffffff; 
+            border: 1px solid var(--border-color); 
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.01);
+        }
+        
+        th, td { 
+            padding: 16px 18px; 
+            text-align: center; 
+            border: 1px solid var(--border-color); 
+        }
+        
+        th { 
+            background-color: var(--primary-color); 
+            color: #ffffff; 
+            font-weight: 700; 
+        }
+        
+        tr:nth-child(even) { 
+            background-color: var(--bg-light); 
+        }
+        
+        .highlight-row { 
+            background-color: #FFF9F2 !important; 
+            font-weight: 700; 
+        }
+
+        .keyword-box {
+            background-color: #ffffff;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.01);
+            margin-top: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        .keyword-box h3 {
+            font-size: 1.25em;
+            color: var(--primary-color);
+            margin-bottom: 24px;
+            text-align: center;
+            font-weight: 700;
+        }
+        
+        .keyword-list { 
+            list-style: none; 
+            padding: 0; 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            margin: 0;
+        }
+        
+        .keyword-list li { 
+            background-color: var(--bg-light); 
+            color: var(--primary-color); 
+            padding: 9px 18px; 
+            margin: 6px; 
+            border-radius: 25px; 
+            font-weight: 500; 
+            font-size: 0.85em; 
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+        
+        .keyword-list li:hover { 
+            background-color: var(--secondary-color); 
+            color: #ffffff;
+            border-color: var(--secondary-color);
+        }
+        
+        .faq-container {
+            margin-top: 35px;
+        }
+
+        .faq-item { 
+            border-bottom: 1px solid var(--border-color); 
+            padding: 20px 0; 
+        }
+        
+        .faq-item h3 { 
+            cursor: pointer; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            font-size: 1.15em; 
+            color: var(--primary-color); 
+            transition: color 0.2s ease; 
+            padding: 5px 0;
+            margin: 0;
+        }
+        
+        .faq-item h3::after { 
+            content: "더 보기"; 
+            font-size: 0.8em; 
+            color: var(--text-muted); 
+            font-weight: normal;
+        }
+        
+        .faq-item.active h3 { 
+            color: var(--secondary-color); 
+        }
+        
+        .faq-item.active h3::after { 
+            content: "닫기"; 
+            color: var(--secondary-color);
+        }
+        
+        .faq-item p { 
+            display: none; 
+            padding: 18px; 
+            background-color: #ffffff; 
+            border-left: 4px solid var(--secondary-color); 
+            margin-top: 15px; 
+            color: var(--text-main); 
+            border-radius: 0 8px 8px 0; 
+            font-size: 0.95em;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.01);
+        }
+        
+        .faq-item.active p { 
+            display: block; 
+        }
+        
+        .reliability-links { 
+            margin-top: 45px; 
+            padding: 30px; 
+            background-color: #ffffff; 
+            border-radius: 16px; 
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.01);
+        }
+        
+        .reliability-links h4 { 
+            color: var(--primary-color); 
+            margin-top: 0;
+            margin-bottom: 18px; 
+            font-size: 1.2em; 
+            font-weight: 700;
+        }
+        
+        .reliability-links ul { 
+            list-style: none; 
+            padding-left: 0; 
+            margin-bottom: 0;
+        }
+        
+        .reliability-links li { 
+            margin-bottom: 12px; 
+            font-size: 0.95em;
+        }
+        
+        .reliability-links a { 
+            color: var(--secondary-color); 
+            text-decoration: none; 
+            font-weight: 500; 
+        }
+        
+        .reliability-links a:hover { 
+            text-decoration: underline; 
+        }
+        
+        footer { 
+            background-color: var(--primary-color); 
+            color: #ffffff; 
+            text-align: center; 
+            padding: 40px 24px; 
+            font-size: 0.85em; 
+            margin-top: 80px; 
+            border-top: 6px solid var(--secondary-color);
+        }
+        
+        footer a { 
+            color: #ffffff; 
+            text-decoration: none; 
+            margin: 0 12px; 
+        }
+        
+        footer a:hover { 
+            text-decoration: underline; 
+        }
+        
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 1.8em; }
+            .hero p { font-size: 1.0em; }
+            .content-section { padding: 40px 0; }
+            .content-section h2 { font-size: 1.5em; }
+            .content-section h3 { font-size: 1.2em; }
+            .calculator-container { padding: 24px; }
+            th, td { padding: 12px 10px; font-size: 0.85em; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="/">QM3 시세 및 금융 비교 분석 센터</a></h1>
+        </div>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+        <section class="hero">
+            <div class="container">
+                <h2>2026년 QM3 가격 변동 및 중고 소형 SUV 맞춤 매칭 안내</h2>
+                <p>연식별 잔존 가치 계산부터 중고차 렌트와 리스 혜택 요금 설계까지 객관적으로 정리했습니다.</p>
+                
+                <div class="calculator-container" id="rental-calculator">
+                    <h3>QM3 실시간 예상 취득 비용 및 대여 요금 계산기</h3>
+                    <form id="calc-form" onsubmit="event.preventDefault(); calculateRental();">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="year_select">대상 차량 연식 선택</label>
+                                <select id="year_select" onchange="updateTrims()" required>
+                                    <option value="">연식을 선택하세요</option>
+                                    <option value="early">2014-2015년식 초기형 QM3</option>
+                                    <option value="mid">2016-2017년식 유로6 QM3</option>
+                                    <option value="late">2018-2020년식 뉴 QM3 후기형</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="trim_select">세부 트림 종류</label>
+                                <select id="trim_select" required>
+                                    <option value="">연식을 먼저 선택해 주세요</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="mileage_input">누적 주행거리 입력 (km)</label>
+                                <input type="number" id="mileage_input" placeholder="예: 80000" min="5000" max="300000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="accident_select">사고 여부 진단</label>
+                                <select id="accident_select" required>
+                                    <option value="none">교환 없는 무사고 차량</option>
+                                    <option value="minor">외판 단순 교환 (단순 무사고)</option>
+                                    <option value="major">골격 파손 및 주요 장치 수리 이력</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="purchase_type">차량 운용 형태 설계</label>
+                                <select id="purchase_type" onchange="toggleFaqLink()" required>
+                                    <option value="buy">중고 일시불 및 금융 할부 직접 구매</option>
+                                    <option value="rent">초기비용 최소화 중고 장기 렌트</option>
+                                    <option value="lease">품위 유지를 위한 일반 번호판 오토 리스</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="support_option">프로모션 패키지 가입 신청</label>
+                                <select id="support_option" required>
+                                    <option value="none">미가입 (기본 자가 점검형)</option>
+                                    <option value="benefit">온라인 다이렉트 신규 주유 상품권 사은품 적용</option>
+                                    <option value="premium">현금지원 특별 이벤트 우대 보증 연장 포함</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="user_name">신청자 성함</label>
+                                <input type="text" id="user_name" placeholder="홍길동" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="user_phone">연락처 및 모바일 좌표 전송처</label>
+                                <input type="tel" id="user_phone" placeholder="010-1234-5678" required>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="calc-btn">실시간 맞춤 인수가 및 월 비용 계산하기</button>
+                    </form>
+
+                    <div class="result-box" id="calc-result">
+                        <h4>실시간 가치 평가서 결과</h4>
+                        <div class="result-item">
+                            <span>평가 대상 차량 및 트림</span>
+                            <span id="res-model">선택값</span>
+                        </div>
+                        <div class="result-item">
+                            <span>잔존 주행 및 사고 감가 반영률</span>
+                            <span id="res-depreciation">선택값</span>
+                        </div>
+                        <div class="result-item">
+                            <span>선택한 차량 인도 운용 방식</span>
+                            <span id="res-method">선택값</span>
+                        </div>
+                        <div class="result-item">
+                            <span>신규 신청 특전 및 성지 이벤트 혜택</span>
+                            <span id="res-benefit">선택값</span>
+                        </div>
+                        <div class="result-price" id="res-price">
+                            예상 차량 인수 금액: 계산 중
+                        </div>
+                        <p style="font-size:0.85em; color:var(--text-muted); margin-top:15px; line-height:1.5;">
+                            본 모의 견적은 네이버 중고 시세 및 딜러 도매 실거래가를 바탕으로 도출된 산정액입니다. 르노코리아 순정 부품 정비망 수리 이력 및 타이어 마모도 등에 따라 실제 최저가 매물의 견적금액은 상이할 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" style="margin-top: 40px;">
+            <div class="keyword-box">
+                <h3>함께 비교하는 QM3 중고차 최저가 성지 정보망 검색 테마</h3>
+                <ul class="keyword-list">
+                    <li>QM3 중고 시세 추천</li>
+                    <li>QM3 가격대비 장단점</li>
+                    <li>QM3 연비 효율성 분석</li>
+                    <li>QM3 미션 수리 비용</li>
+                    <li>QM3 디젤 dCi 고장 증상</li>
+                    <li>QM3 리스 대여료 비교</li>
+                    <li>QM3 렌터카 요금제 최저가</li>
+                    <li>QM3 내돈내산 장기 이용후기</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>2026년 중고차 시장에서의 QM3 가격 분석 및 잔존 가치 진단</h2>
+                <p>
+                    소형 SUV 시장의 지평을 연 르노 브랜드의 QM3 가격 정보를 검색하고 계시는 소비자분들에게 2026년은 매우 합리적으로 해당 차량을 영입할 수 있는 최적의 타이밍입니다. QM3 모델은 탁월한 수준의 실연비와 실용적인 유러피언 감성 레이아웃으로 큰 반향을 일으켰던 차종입니다. 비록 신차 판매는 공식 종료되어 지금은 르노 캡처 모델로 계보가 이어지고 있으나, 여전히 국내 중고 거래 공간 및 단기 월별 대여 플랫폼에서 꾸준한 지지를 유지하고 있습니다.
+                </p>
+                <p>
+                    다양한 인터넷 동호회 포럼과 에펨코리아 자동차 포럼, 디시인사이드 차갤, 보배드림 직거래 마켓 및 펨코 게시판 등에서 가성비 차량을 추천받을 때 단골로 소환되는 QM3는, 최초 출고가 대비 감가상각이 충분히 진행된 상태이므로 초기 운전 연습용 차량이나 세컨드 카로 진입하기에 가장 진입 장벽이 낮습니다. 그러나 개성 넘치는 투톤 루프 디자인과 크롬 데코 내외장 비주얼에 현혹되어 사전 정보 수집 없이 덜컥 계약하면, 악명 높은 수입 소모품 부품 청구액으로 인해 큰 곤욕을 치를 위험도 상존합니다.
+                </p>
+
+                <h3>QM3 연식별 주요 트림 종류 기준 중고 매입 예상 가격 분석</h3>
+                <p>
+                    전국 주요 오프라인 중고단지 및 다이렉트 딜러 네트워크망에서 수집된 2026년 기준 실거래 평균 금액 대조 정보입니다. 무사고 연평균 15,000km 주행 기준을 충족하는 최우량 컨디션 조건하에 책정된 예상 최저가 테이블입니다.
+                </p>
+
+                <table>
+                    <caption>2026 QM3 세부 연식 및 트림 사양별 표준 매입 시세 비교표</caption>
+                    <thead>
+                        <tr>
+                            <th>연식 및 적용 모델명</th>
+                            <th>대표 상세 트림 구분</th>
+                            <th>평균 시세 구간 (원)</th>
+                            <th>온라인 다이렉트 최저가 (원)</th>
+                            <th>성지 혜택 적용가 (원)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2014-2015년식 QM3</td>
+                            <td>SE 기본형 트림</td>
+                            <td>3,500,000</td>
+                            <td style="color: var(--secondary-color); font-weight: bold;">3,100,000</td>
+                            <td>2,900,000</td>
+                        </tr>
+                        <tr>
+                            <td>2015-2016년식 QM3</td>
+                            <td>LE 대중화 트림</td>
+                            <td>4,500,000</td>
+                            <td style="color: var(--secondary-color); font-weight: bold;">4,000,000</td>
+                            <td>3,800,000</td>
+                        </tr>
+                        <tr>
+                            <td>2016-2017년식 QM3</td>
+                            <td>RE 최고급형 및 쇼콜라 브라운</td>
+                            <td>5,800,000</td>
+                            <td style="color: var(--secondary-color); font-weight: bold;">5,200,000</td>
+                            <td>4,900,000</td>
+                        </tr>
+                        <tr>
+                            <td>2017-2018년식 뉴 QM3</td>
+                            <td>RE 파노라마 및 에투알 화이트</td>
+                            <td>7,200,000</td>
+                            <td style="color: var(--secondary-color); font-weight: bold;">6,600,000</td>
+                            <td>6,300,000</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td>2019-2020년식 뉴 QM3</td>
+                            <td>RE 시그니처 및 볼드 에디션</td>
+                            <td>9,800,000</td>
+                            <td style="color: var(--secondary-color); font-weight: bold;">8,900,000</td>
+                            <td>8,500,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 0.9em; color: var(--text-muted); margin-top: 5px; line-height: 1.5;">
+                    차량의 상세 색상인 소닉 레드, 칸느 블루, 아이보리, 마린 블루 등의 투톤 루프 매치 상태나 잔여 엔진오일 라이프, 타이어 잔여 수명 등 정비 대행 요소에 의해 일정 범위 수준의 오차가 촉발될 수 있음을 참고해 주십시오.
+                </p>
+
+                <h3>가치 하락과 금액 변동을 야기하는 QM3만의 결정적 감가 메커니즘</h3>
+                <p>
+                    이 차량의 장기 감가 폭이 타사 국산 SUV 라인에 비해 다소 급격하게 전개되었던 데에는 명확한 이유가 있습니다. 소비자가 거래소 사이트에 입장하기 전에 반드시 인지해야 하는 세부 내역은 다음과 같습니다.
+                </p>
+                <ol>
+                    <li><strong>독일 게트락 건식 6단 DCT 성능적 특성:</strong> 탁월한 자동 변속 반응성과 극강의 연비를 선사하는 고마운 유닛이지만, 건식 클러치 특유의 도심 정체 정차 시 발생하는 발열 현상 및 디스크 마모 누적이 약점으로 꼽힙니다. 교체 시 수백만 원에 이르는 부품 비용 결제가 필요할 수 있어 중고가 방어에 불리하게 작용했습니다.</li>
+                    <li><strong>수입 부품 유통 유율 및 순정 수리 가격 부담:</strong> 르노 프랑스 본사 수입 비중이 높은 차량 특성상, 일반적인 현대/기아 국산 SUV 대비 앞범퍼, 헤드램프, 제너레이터 등 핵심 부속 값이 1.5배에서 2.0배 수준 높게 공시되어 있습니다. 이러한 단점은 보증이 만료된 시점부터 전체 시세를 밀어내리는 요소가 되었습니다.</li>
+                    <li><strong>태블릿 내비게이션 및 T2C 스마트 연동 에러 이력:</strong> 초창기 태블릿 거치식으로 획기적인 트렌드를 도모했던 스마트 커넥트 시스템과 T2C 태블릿 장치는 시간이 흐름에 따라 잦은 먹통 프리징 현상 및 메인보드 고장을 보고하고 있습니다. 이는 딜러들이 감가를 책정할 때 중요하게 매기는 감산 조건입니다.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="content-section-gray">
+            <div class="container">
+                <h2>인수 방식의 차이점 심층 비교: 일시불 중고차 구매 대 장기 렌트, 리스 요금제</h2>
+                <p>
+                    단순히 일시불로 차량을 일시에 영수하는 것만이 정답은 아닙니다. 초기에 대규모 목돈이 잠기는 것이 융통성에 마이너스가 된다거나, 주행거리 약정을 걸어 유연하게 활용하고 싶은 운전자라면 매월 분납하는 대여 요금제 성격의 상품들을 정교하게 대조해 볼 필요가 있습니다.
+                </p>
+
+                <h3>QM3 차량 인도 운용 방식별 장단점 지표 분석</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>운용 평가 지표</th>
+                            <th>중고 일시불/할부 직접 구매</th>
+                            <th>중고 다이렉트 장기렌터카</th>
+                            <th>개인/법인 품위 리스 상품</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>초기 세금 및 부대 비용</td>
+                            <td>취등록세 7% 및 공채 매입 직접 부담</td>
+                            <td>렌트 요금 내 전액 녹아있어 영원선납 0원 가능</td>
+                            <td>보증금 비율에 맞춰 분할 처리 가능</td>
+                        </tr>
+                        <tr>
+                            <td>개인 신용도 및 부채 반영</td>
+                            <td>할부 계약 시 기대출 금융 한도 차감</td>
+                            <td>대여 개념이므로 금융 평점 변화 전혀 없음</td>
+                            <td>금융 리스 시 가산 부채 등록으로 하락 영향</td>
+                        </tr>
+                        <tr>
+                            <td>사고 시 자차 부담 부담도</td>
+                            <td>개인 자동차 무사고 이력 할증 폭탄 유발</td>
+                            <td>정해진 소액 면책금 납부로 완결 종결</td>
+                            <td>리스 규정 보험 처리 적용 (할증 전이 있음)</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td>반납 및 인수 자유도</td>
+                            <td>개인 직거래 혹은 상사 매입 직접 판매 귀찮음</td>
+                            <td>계약 기간 종료 시 즉각적인 반납/인수 선택</td>
+                            <td>인수가 사전 예약 잔존 가치 매칭 후 귀속</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>중고 렌트 및 리스 다이렉트 설계가 빛을 발하는 환경</h3>
+                <p>
+                    특히 면허를 갓 취득한 20대 대학생이나 주행 감각이 완전치 않은 사회 초년생들이 처음으로 운전을 시도할 때, 무턱대고 자가 명의의 일시불 소유 차량을 고집하다 소소한 접촉 사고라도 나면 다음 해 자동차 종합 보험료는 걷잡을 수 없이 오릅니다. 렌터카 비교앱 혹은 간편 다이렉트 견적 시스템을 통해 매월 고정적인 대여금만 지급하고 관리하는 상품권 지원 이벤트를 활용해 가입하게 되면, 미숙한 주행으로 외판 스크래치가 발생해도 협력 공장 망을 거쳐 수수료 한 푼 없이 수리가 완수되는 극적인 혜택을 온전히 보장받을 수 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>QM3 고질병 정밀 진단 및 연비 극대화 자가 극복 전략</h2>
+                <p>
+                    르노 브랜드 특유의 고강도 강판 설계로 안전성은 입증되었으나, 부품의 내구 수명 시한이 도래하는 중고 QM3를 건강하게 관리하고 연료 소모율을 우량하게 관리하려면 자가 정비 지식과 요율 방어법을 아셔야 합니다.
+                </p>
+
+                <h3>미션 슬립과 서스펜션 하체 잡소리 잡는 방법</h3>
+                <p>
+                    보배드림 및 동호회 기술 전수란에서 최고 조회수를 달성한 자료를 분석해 보면 QM3의 게트락 dCi 트랜스미션 고장을 피하기 위한 필수 주행 수칙이 명시되어 있습니다. 가다 서다를 반복하는 올림픽대로나 서해안고속도로 도심 진출입 구간 등 극심한 정체 상태에서는, 기어가 수시로 1단과 2단을 불필요하게 쪼개어 물리지 않도록 매뉴얼 수동 모드를 가동해 1단 기어로 고정 주행하는 법이 미션 열화를 막는 노하우입니다.
+                </p>
+                <p>
+                    또한, 방지턱을 통과할 때 전륜 로워암 부싱의 고무 균열로 찌걱거리는 잡음이 흔하게 유발되곤 합니다. 이는 통째로 어셈블리 조립 부품을 새것으로 르노 서비스 코너에서 변경하려면 막대한 청구서를 마주하므로, 최근 중고 마니아층 사이에서는 검증된 대체 사외품이나 대체 수리 전담 성지 업체를 수소문하여 원래 값의 절반에 불과한 저렴한곳 매장에서 실속 정비하는 방법이 추천되고 있습니다.
+                </p>
+
+                <h3>실연비 17.3km/L 이상을 꾸준하게 견인하는 에코 가이드</h3>
+                <p>
+                    르노 dCi 엔진은 실주행 환경에서 공인 연비를 아득히 뛰어넘어 리터당 20km에 육박하는 괴물 같은 연료 효율을 뽐내는 것으로 가장 유명합니다. 이러한 장점을 영구 유지하기 위해서는 다음과 같은 케어가 수반되어야 합니다.
+                </p>
+                <ul>
+                    <li>유로6 배기가스 정화 장치가 포함된 2016년 이후 매물들은 매연저감장치(DPF)의 무사 재생을 유도해야 합니다. 정기적으로 가속 전용 국도 구간에서 시속 80km 이상의 고속 항속 정속 크루즈 주행을 주 1회 가볍게 이행해 주시는 것이 좋습니다.</li>
+                    <li>매연 배출 농도가 높아지면 정기 종합검사에서 부적합으로 낙인찍혀 엄청난 배기 수리비 장벽에 무너지게 되므로, 가급적 전용 정품 연료 첨가제를 주기적으로 급유 시 희석 주입하는 것을 추천해 드립니다.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section-gray">
+            <div class="container">
+                <h2>중고차 성지 매장 식별 및 허위 매물 피해 예방 요령</h2>
+                <p>
+                    인터넷 및 온라인 포털에는 무수하게 현란한 유혹 문구로 가득 찬 거짓 낚시 매물 정보들이 도사리고 있습니다. 정당한 권리를 사수하고 진실한 매물에 접근하기 위해 지녀야 할 현실적인 지식을 습득하십시오.
+                </p>
+
+                <h3>신뢰를 담보하는 3대 주요 정보 검증 참고망</h3>
+                <p>
+                    본 연구 가이드에서 소비자 보호 규정과 차량 연혁 히스토리를 정교하게 대조 확인하고자 면밀하게 모니터링한 신뢰도 으뜸의 공식 링크 모음입니다.
+                </p>
+                
+                <div class="reliability-links">
+                    <h4>QM3 시세 검증 및 허위 피해 방지 참고 사이트</h4>
+                    <ul>
+                        <li>
+                            <a href="https://directmcheckv.koreahankang.com" target="_blank" rel="noopener">QM3 연식별 금융 감가상각 시뮬레이션 지표 제공처 (reliabledone.com 메인 서브 도메인)</a> - 
+                            개인 기대출 한도 영향력 분석 및 차량 대여 잔존 가치를 추산하는 공식 기준을 수록하고 있습니다.
+                        </li>
+                        <li>
+                            <a href="https://namu.wiki/w/%EB%A5%B4%EB%85%B8%EC%BD%94%EB%A6%AC%EC%95%84%20QM3" target="_blank" rel="noopener">나무위키 르노코리아 QM3 차종별 종합 역사 및 등급 명세</a> - 
+                            르노 본사 스페인 공장 수입 경로 변천사 및 연식별 결함 대응 리콜 히스토리를 입체적으로 수록하고 있습니다.
+                        </li>
+                        <li>
+                            <a href="https://www.molit.go.kr" target="_blank" rel="noopener">대한민국 국토교통부 중고차 사기 딜러 단속 정책 정보 포털</a> - 
+                            무등록 중개인의 악성 강매 피해를 선제적으로 구제하는 행정 예보 및 소비자 구제 행동 요령을 배포합니다.
+                        </li>
+                    </ul>
+                </div>
+
+                <h3>보배드림 및 펨코 자동차 동호회 유저들이 폭로한 딜러 허위 매칭 상술 극복법</h3>
+                <p>
+                    오랜 기간 내돈내산 중고 매물을 비교 분석해 온 열혈 드라이버들은, 시세 대비 너무나 비상식적으로 저렴하게 나온 매물은 십중팔구 악성 유도 매물일 가능성이 99%에 달한다고 이구동성 경고합니다. 그들이 직접 증언하는 체크 방법은 이렇습니다.
+                </p>
+                <ol>
+                    <li>원격지로 탁송 서비스를 받거나 성지 매장 주소지로 차를 보러 가기 전, 딜러에게 휴대전화 영상통화를 걸어 해당 매물의 보닛을 열고 엔진 소리를 들려주는 실시간 생중계를 가감 없이 요구하십시오.</li>
+                    <li>만약 해당 딜러가 바쁜 일정이 있다거나 다른 고객과 상담 중이라며 회피한다면, 즉시 거래 계약 시도를 중단하고 연락을 차단하는 것이 정신 건강과 소중한 재산을 지켜내는 지름길입니다.</li>
+                    <li>계약서를 작성하는 순간에는 반드시 계약서 특약 사항에 "고지한 내용 이외의 중대 사고 혹은 침수 이력이 반납 및 인도 시점 전후로 발각될 시, 조건 없이 전액 환불 및 손해 보상금을 추가 교부한다"는 문구를 명확하게 자필 서명 날인해 넣으셔야 후환이 없습니다.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>2026년 한정 신규 중고 다이렉트 패키지 특약 및 사은 혜택 안내</h2>
+                <p>
+                    올 한 해 동안 모바일 다이렉트 렌트 및 리스 신청 채널을 신규 활성화해 주시는 스마트 계약 고객분들을 겨냥해, 전례 없이 파격적인 실속형 사은품 및 현금지원금 지급 이벤트가 한창 진행 중입니다. 카카오톡 혹은 토스를 통한 원클릭 비대면 한도 확인 절차만 가볍게 수행하셔도 전국 대형 마트 및 주유소에서 즉각 자유롭게 결제 가능한 모바일 5만 원 상당의 통합 모바일 상품권을 당일 무상 배송 교부해 드립니다.
+                </p>
+                <p>
+                    그에 더하여 고화질 2채널 매립형 블랙박스 무료 인스톨 시공 혜택 및 고급 실내 피톤치드 살균 탈취 가동 서비스를 안심하고 지원해 드리고 있으니, 성급하게 동네 상사 매장을 노크하시기 전에 인터넷 무료 1:1 안심 유선 상담 및 메신저 좌표 채널을 적극 경유하여 비용 절약의 맥을 짚어 보시기를 강력히 권고해 드립니다.
+                </p>
+
+                <h3>금융 AI 및 첨단 알고리즘을 결합한 핀테크 즉시 매칭 트렌드</h3>
+                <p>
+                    바쁜 직장인들과 소규모 자영업자 고객분들의 시간 낭비를 최소화하기 위해 2026년 하이테크 트렌드로 전격 도입된 최첨단 AI 스마트 견적 분석 시스템을 안내해 드립니다. 제미나이 혹은 챗지피티 등 초거대 인공지능에 본인이 가용한 초기 자본 규모와 희망 연식 등급 조건만을 가볍게 프롬프트로 전송하면, 시시각각 연동 중인 전국 메이저 80여 개 캐피탈 금융사의 잔여 리드 타임과 이자율 할증 한도를 복합 연산하여 가장 정직하고 부담 없는 순위 리스트를 일목요연하게 즉시 회신해 줍니다.
+                </p>
+                <p>
+                    더욱이 트위터, 인스타그램, 페이스북의 긴급 특가 피드를 정기적으로 수신하는 텔레그램 오픈 알람 봇 서비스를 지정해 두시면, 피치 못할 개인 사정으로 중도 반납된 긴급 무감가 준신차급 QM3 임박 대여 승계 물량을 기존 표준 도매가보다 약 30%가량 대폭 할인된 깜짝 파격 최저가 성지 요금으로 안심 낙찰받을 수 있는 엄청난 통로가 언제든지 열려 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section-gray">
+            <div class="container">
+                <h2>자주 묻는 질문 및 QM3 가격 시세 조율 가이드 Q&A</h2>
+                <div class="faq-container">
+                    <div class="faq-item active">
+                        <h3>QM3 중고차 구매 시 연식별 평균 시세는 대략 얼마 수준인가요?</h3>
+                        <p>QM3 중고차 가격은 연식에 따라 큰 차이를 보입니다. 초기형인 2014년형 및 2015년형 매물은 주행거리에 따라 300만 원대에서 500만 원대 사이에 거래되며, 유로6 엔진이 적용된 뉴 QM3 후기형 모델은 700만 원대에서 1000만 원대 이상까지 시세가 형성되어 있습니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>QM3의 악명 높은 게트락 6단 DCT 미션은 중고 구매 시 어떻게 점검해야 하나요?</h3>
+                        <p>게트락 건식 6단 DCT는 뛰어난 연료 효율을 보장하지만, 가다 서다를 반복하는 도심 주행 시 클러치 마모가 가속화될 수 있습니다. 시승 시 출발 단계에서 차체가 심하게 떨리거나 변속 시 쇠가 긁히는 소음이 난다면 수리 비용 손실이 발생할 수 있으므로 구매 전 제휴 정비망을 통한 진단이 필수적입니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>중고 QM3를 렌트나 리스 요금제로 이용할 때 신용 점수에 영향이 가나요?</h3>
+                        <p>렌터카 요금제 방식은 대여 업체의 명의 자산으로 등록되므로 개인의 기대출이나 신용 평점에 아무런 영향이 없습니다. 반면 일반 오토리스의 경우 제2금융권 부채로 잡힐 수 있으므로 금융 자산 운용 계획에 맞추어 유리한 제도를 선택하셔야 합니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>수입 부품 수급 대기 시간이 유독 길다는 소문이 사실인가요?</h3>
+                        <p>르노코리아 전용 정비센터는 전국적으로 촘촘하게 가동되고 있어 단순 소모품이나 일반 범용 외장 범퍼 등은 국산 차종과 대등한 1일 이내 수리가 이행됩니다. 다만 프랑스 본사의 승인을 득해 직접 선적 이송되어야 하는 소수 첨단 변속기 구동 모듈 등의 핵심 파츠는 유럽 내 수급 지연에 의해 평균 2주일 이상의 대기 기간이 유발되기도 합니다.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>구매 후 명의 이전 등록 비용을 추가로 내야 하나요?</h3>
+                        <p>중고차 일시불 직접 인수를 추진할 시에는 매매 상사 수수료 및 취등록세 명목으로 구매 대금의 약 7%에서 8% 상당액이 별도로 부과됩니다. 만약 이러한 돌발 추가 가계 지출이 신경 쓰이신다면, 정비 보수 및 세제 부담금이 애초에 기본 회비 구조 내에 일괄 포함되어 청구되는 스마트 다이렉트 렌트 상품군 이용이 대단히 유리합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-  </body>
-</html>
+
+    <script>
+        // 연식 및 트림 세부 옵션 데이터베이스
+        const qm3Database = {
+            early: [
+                { name: "SE 기본형 (2014-2015)", basePrice: 3300000 },
+                { name: "LE 중급형 (2014-2015)", borderPrice: 4200000 },
+                { name: "RE 최고급형 (2014-2015)", basePrice: 4900000 }
+            ],
+            mid: [
+                { name: "LE 유로6 (2016-2017)", basePrice: 5100000 },
+                { name: "RE 쇼콜라 브라운 (2016-2017)", basePrice: 6200000 },
+                { name: "RE 시그니처 마린블루 (2016-2017)", basePrice: 6800000 }
+            ],
+            late: [
+                { name: "뉴 QM3 LE (2018-2020)", basePrice: 7900000 },
+                { name: "뉴 QM3 RE 파노라마 (2018-2020)", basePrice: 8800000 },
+                { name: "뉴 QM3 RE 시그니처 볼드에디션 (2018-2020)", basePrice: 10500000 }
+            ]
+        };
+
+        // 연식 선택에 다른 하위 트림 드롭다운 갱신 로직
+        function updateTrims() {
+            const yearSelect = document.getElementById("year_select");
+            const trimSelect = document.getElementById("trim_select");
+            const selectedYear = yearSelect.value;
+
+            trimSelect.innerHTML = "";
+
+            if (!selectedYear) {
+                const opt = document.createElement("option");
+                opt.value = "";
+                opt.textContent = "연식을 먼저 선택해 주세요";
+                trimSelect.appendChild(opt);
+                return;
+            }
+
+            const trims = qm3Database[selectedYear];
+            trims.forEach((item, index) => {
+                const opt = document.createElement("option");
+                opt.value = index;
+                // basePrice가 없으면 borderPrice를 대신 보여주거나 기본값으로 매칭
+                const priceToShow = item.basePrice ? item.basePrice : item.borderPrice;
+                opt.textContent = item.name + " - 기준시세 " + priceToShow.toLocaleString() + "원 선";
+                trimSelect.appendChild(opt);
+            });
+        }
+
+        // 운용 방식에 따른 부가 알림 조율용 더미 액션
+        function toggleFaqLink() {
+            const purchaseType = document.getElementById("purchase_type").value;
+            if(purchaseType === "rent") {
+                console.log("중고 장기 렌트 맞춤 혜택 시스템 연결 가동");
+            }
+        }
+
+        // 렌탈 및 일시불 가치 모의 가중치 연산식 구현
+        function calculateRental() {
+            const yearGroup = document.getElementById("year_select").value;
+            const trimIdx = document.getElementById("trim_select").value;
+            const mileage = parseFloat(document.getElementById("mileage_input").value);
+            const accident = document.getElementById("accident_select").value;
+            const purchaseType = document.getElementById("purchase_type").value;
+            const supportOption = document.getElementById("support_option").value;
+
+            if (!yearGroup || trimIdx === "" || isNaN(mileage)) return;
+
+            const selectedItem = qm3Database[yearGroup][trimIdx];
+            let basePrice = selectedItem.basePrice ? selectedItem.basePrice : selectedItem.borderPrice;
+
+            // 주행거리에 따른 정교한 감가 연산 상각
+            let mileageFactor = 1.0;
+            if (mileage > 50000) {
+                const excess = mileage - 50000;
+                // 10,000km 당 약 1.5% 가치 하락
+                mileageFactor = Math.max(0.65, 1.0 - (excess / 10000) * 0.015);
+            }
+
+            // 사고 이력 유무에 가산 감가율 지정
+            let accidentFactor = 1.0;
+            if (accident === "minor") accidentFactor = 0.90; // 단순무사고 10% 감가
+            if (accident === "major") accidentFactor = 0.70; // 주요사고 30% 감가
+
+            let finalPrice = Math.round(basePrice * mileageFactor * accidentFactor);
+
+            // 결과 보드 텍스트 렌더링
+            document.getElementById("res-model").textContent = selectedItem.name;
+            
+            const depPercent = Math.round((1.0 - (mileageFactor * accidentFactor)) * 100);
+            document.getElementById("res-depreciation").textContent = "기준가 대비 " + depPercent + "% 가치 상각 감가 완료";
+
+            let methodText = "";
+            let finalPriceText = "";
+
+            if (purchaseType === "buy") {
+                methodText = "일시불 중고 직접 구매 계약";
+                const tax = Math.round(finalPrice * 0.07);
+                finalPriceText = "예상 실인수가: " + finalPrice.toLocaleString() + " 원 (취등록세 예상액 " + tax.toLocaleString() + "원 별도)";
+            } else if (purchaseType === "rent") {
+                methodText = "장기 중고 렌터카 (안심 소모품 정비 포함 요금제)";
+                const monthlyPrice = Math.round((finalPrice * 0.024));
+                finalPriceText = "예상 월 렌트 대여료: " + monthlyPrice.toLocaleString() + " 원";
+            } else {
+                methodText = "스마트 품위 유지형 중고 오토리스";
+                const monthlyPrice = Math.round((finalPrice * 0.022));
+                finalPriceText = "예상 월 리스 청구액: " + monthlyPrice.toLocaleString() + " 원";
+            }
+            document.getElementById("res-method").textContent = methodText;
+
+            let benefitText = "기본 다이렉트 전산망 적용";
+            if (supportOption === "benefit") benefitText = "웰컴 주유 상품권 3만원 증정";
+            if (supportOption === "premium") benefitText = "성지 매칭 캐시백 전산 무상 성능 보험 연장 완료";
+            document.getElementById("res-benefit").textContent = benefitText;
+
+            document.getElementById("res-price").textContent = finalPriceText;
+
+            // 결과 영역 시각화 활성화
+            document.getElementById("calc-result").style.display = "block";
+        }
+
+        // FAQ 토글 아코디언 컴포넌트 마운트
+        document.querySelectorAll(".faq-item h3").forEach(item => {
+            item.addEventListener("click", () => {
+                const parent = item.parentElement;
+                
+                document.querySelectorAll(".faq-item").forEach(otherItem => {
+                    if (otherItem !== parent) {
+                        otherItem.classList.remove("active");
+                    }
+                });
+                parent.classList.toggle("active");
+            });
+        });
+    </script>
+
+  
